@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Banner from "./pages/Banner";
 import Design from "./pages/Designs";
 import Services from "./pages/Services";
+import YouTubeVideo from "./pages/Yt";
+import Promo from "./pages/Promo";
 
 function App() {  
   return (
@@ -13,6 +15,8 @@ function App() {
     <Banner/>
     <Design/>
     <Services/>
+    <Promo/>
+   
     </>
   );
 }

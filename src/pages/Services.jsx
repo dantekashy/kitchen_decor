@@ -11,12 +11,12 @@ import rel from '../assets/images/reliability.png';
 
 function Services(){
   return(
-    <section className='bg-[var(--main-color)]'>
-    <div className="service-text">
-        <p className='text-[var(--second-color)]  text-2xl'>Why choose us?</p>
-        <h2 className='text-white text-4xl font-bold'>Extremely high standards of<br/>Customer satisfaction</h2>
+    <section className='bg-[var(--main-color)] flex  flex-col items-center space-y-10'>
+    <div>
+        <p className='text-[var(--second-color)]  text-2xl text-center '>Why choose us?</p>
+        <h2 className='text-white text-4xl font-bold text-center'>Extremely high standards of<br/>Customer satisfaction</h2>
     </div>
-    <div className="flex flex-wrap justify-center gap-4 p-4">
+    <div className="flex flex-wrap justify-center gap-4 p-4 ">
         <Service_Card 
         image={idea}
         title="Full service"

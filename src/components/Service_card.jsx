@@ -14,8 +14,8 @@ function Service_Card({image,title, desc}){
 
 
 <div className="servicecard--text">
-<h4>{title}</h4>
-<p>{desc}</p>
+<h4 className="text-white text-2xl mt-3 font-bold">{title}</h4>
+<p className="text-white text-lg">{desc}</p>
 </div>
 
 </div>

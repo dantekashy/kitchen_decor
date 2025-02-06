@@ -5,8 +5,11 @@ import '../App.css';
 function Navigation(){
 return (
 <header className=' flex items-center justify-between shadow-md p-5'>
-    <h2 className='text-2xl font-bold text-black'>KITCHOR</h2>
 
+  <div className="ml-10">
+  <h2 className='text-2xl font-bold text-white '>KITCHOR</h2>
+  </div>
+    
     <nav >
       <ul className="flex space-x-6 text-white font-medium ">
         <li>HOME</li>

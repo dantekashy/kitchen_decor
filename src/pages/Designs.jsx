@@ -25,6 +25,12 @@ function Design(){
      text2="We create amazing experiences"
      bgImage={mainBg}
     />
+    <Card
+    
+    text1="Classic collection"
+     text2="We create amazing experiences"
+     bgImage={mainBg}
+    />
     </section>
  );
 
